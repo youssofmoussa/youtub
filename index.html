@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href=".//style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+        
+        .article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            
+        }
+
+        header {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+        }
+
+        header img {
+            height: 32px;
+        }
+
+        header form {
+            position: relative;
+            width: 50%;
+        }
+
+        header form input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        header form button {
+            position: absolute;
+            top: .5px;
+            right: -17px;
+            background-color: #f44336;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            position: absolute;  
+            width: 95%;
+            background-color: grey;
+            padding: 10px;
+            
+        }
+
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+
+        }
+
+        main .videos {
+            display: flex;
+            flex-wrap: wrap;
+            width: 70%;
+        }
+
+        main .video {
+            width: 23%;
+            margin-bottom: 32px;
+        }
+.islamic{
+    position: relative;
+    right: -50px;
+    bottom: -15px;
+}
+#top1{
+    position: relative;
+    top: -12px;
+    bottom: -15px
+}
+.montage{
+    position: relative;
+    right: -50px;
+    bottom: -20px;
+}
+#top2{
+    position: relative;
+    top: -10px;
+    bottom: -15px
+
+}     
+.green{
+    position: relative;
+    right: -50px;
+    bottom: -20px;
+}
+#top3{
+    position: relative;
+    top: -9px;
+    bottom: -15px
+}     
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="YouTube logo" >
+        <form>
+            <input type="text">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <div class="article">
+        <div class="videos">
+            <div class="video">
+                <video class="share" src="vid1.mp4" width="300px" height="150px" controls></video>
+                <div class="islamic">islamic video</div>
+                <img id="top1"  src="Screenshot 2024-01-27 082408.png" alt="" width="40px">
+            </div>
+            <div class="video">   
+                <video class="like" src="post1.mp4" width="300px" height="150px" controls></video>
+                <div class="montage">montage video</div>
+                <img id="top2"  src="Screenshot 2024-01-27 082408.png" alt="" width="40px">
+            </div>
+            <div class="video">
+                <video class="subscribe" src="youssof1.mp4" width="300px" height="150px" controls></video>
+                <div class="green">green screen </div>
+                <img id="top3"  src="Screenshot 2024-01-27 082408.png" alt="" width="40px">
+            </div>
+            <div class="video">
+                <video class="share" src="vid1.mp4" width="300px" height="150px" controls></video>
+                <div class="islamic">islamic video</div>
+                <img  id="top1" src="Screenshot 2024-01-27 082408.png" alt="" width="40px">
+            </div>
+
+        </div>
+    </div>
+    <nav>
+        <a href="https://youssofmoussa.github.io/youtubi/"  target="_blank" title="homepage"><i class="fa-solid fa-house"></i></a>
+        <a href=" https://youtube.com/shorts/skpSJJ-2AHo?feature=shared"   target="_blank" title="shorts"><i class="fa-solid fa-film"></i></a>
+        <a href="https://youssofmoussa.github.io/youtubi/"   target="_blank" title="subscritpion"><i class="fa-solid fa-user-group"></i></a>
+    </nav>
+</body>
+
+</html>

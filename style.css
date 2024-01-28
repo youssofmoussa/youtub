@@ -1,0 +1,87 @@
+#top1 {
+    position: relative;
+    left: 45px;
+    top: 1px;
+    border-radius: 50px;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  /* Add a hover effect to scale up the image */
+  #top1:hover {
+    transform: scale(1.2); /* Scale up the image */
+  }
+  #top2 {
+    border-radius: 50px;
+    position: relative;
+    left: 45px;
+    top: 1px;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  /* Add a hover effect to scale up the image */
+  #top2:hover {
+    transform: scale(1.2); /* Scale up the image */
+  }
+  #top3 {
+    border-radius: 50px;
+    position: relative;
+    left: 45px;
+    top: 1px;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  /* Add a hover effect to scale up the image */
+  #top3:hover {
+    transform: scale(1.2); /* Scale up the image */
+  }
+
+  .share {
+    position: relative;
+    right: -55px;
+    bottom: -15px;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  /* Add a hover effect to scale up the video */
+  .share:hover {
+    transform: scale(1.1); /* Scale up the video */
+  }
+  .like {
+    position: relative;
+    right: -55px;
+    bottom: -15px;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  /* Add a hover effect to scale up the video */
+  .like:hover {
+    transform: scale(1.1); /* Scale up the video */
+  }
+
+  .subscribe {
+    position: relative;
+    right: -50px;
+    bottom: -15px;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+  /* Add a hover effect to scale up the video */
+  .subscribe:hover {
+    transform: scale(1.1); /* Scale up the video */
+  }
+  .islamic{
+    position: relative;
+    left: 95px;
+    bottom: -28px;
+  }
+  .montage{
+    position: relative;
+    left: 95px;
+    bottom: -28px;
+  }
+  .green{
+    position: relative;
+    left: 95px;
+    bottom: -28px;
+  }
+  
