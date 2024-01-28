@@ -1,7 +1,7 @@
 #top1 {
     position: relative;
     left: 45px;
-    top: 1px;
+    bottom: -3px;
     border-radius: 50px;
     transition: transform 0.3s ease; /* Add a transition effect */
   }
@@ -14,7 +14,7 @@
     border-radius: 50px;
     position: relative;
     left: 45px;
-    top: 1px;
+    bottom: -3px;
     transition: transform 0.3s ease; /* Add a transition effect */
   }
   
@@ -26,7 +26,7 @@
     border-radius: 50px;
     position: relative;
     left: 45px;
-    top: 1px;
+    bottom: -3px;
     transition: transform 0.3s ease; /* Add a transition effect */
   }
   
@@ -72,7 +72,7 @@
   .islamic{
     position: relative;
     left: 95px;
-    bottom: -28px;
+    bottom: -33px;
   }
   .montage{
     position: relative;
@@ -85,3 +85,85 @@
     bottom: -28px;
   }
   
+  .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header img {
+    height: 32px;
+}
+
+header form {
+    position: relative;
+    width: 50%;
+}
+
+header form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+header form button {
+    position: absolute;
+    top: .5px;
+    right: -17px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;  
+    width: 95%;
+    background-color: grey;
+    padding: 10px;
+    
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+main .videos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+main .video {
+    width: 23%;
+    margin-bottom: 32px;
+}
